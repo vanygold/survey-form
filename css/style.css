@@ -1,0 +1,11 @@
+#survey-form{
+   margin: auto;
+    width: 600px;
+    background-color: rgb(57, 55, 55);
+    text-align: left;
+}
+
+body{
+    background-color: rgb(232, 232, 247);
+    text-align: center;
+}
