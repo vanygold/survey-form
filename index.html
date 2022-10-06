@@ -8,8 +8,49 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-    <p>Hello World, we are software developers!</p>
-    <script  src="js/index.js"></script>
+    <h1 id="title">survey form<h1/>
+      <p id="description">
+        please fill 
+      </p>
+      <form id="survey-form">
+        <label for="fname" id="name-label">First name:</label>
+       <input type="text" id="name" name="fname" placeholder="name" required><br><br>
+       <label for="email" id="email-label"
+        
+       >Email:</label>
+      <input type="email" id="email" name="email" 
+      placeholder="email"required><br><br>
+      <label for="number" id="number-label">Number:</label>
+       <input type="number" id="number" min="1" max="5"
+        placeholder="number"
+       ><br><br>
+       <select name="city" id="dropdown">
+        <option value="addis_ababa">Addis ababa</option>
+        <option value="Nigeria">Nigeria</option>
+      </select>
+       <br></br>
+      <p>Please select your favorite your city:</p>
+        <input type="radio" id="addis ababa" name="city" value="addis ababa">
+        <label for="city">addis ababa</label><br>
+        <input type="radio" id="lagos" name="city" value="lagos">
+        <label for="css">Lagos</label><br>
+        <br>  
+      
+        <p>Please select your gender:</p>
+        <input type="checkbox" id="gender" name="gender" value="30">
+        <label for="gender">Male</label><br>
+        <input type="checkbox" id="gender" name="gender" value="60">
+        <label for="gender">Femle</label><br>  
+       
+        <input type="submit" value="Submit">
+        
+      
+      <p><label for="comment">please add comment</label></p>
+        <textarea id="comment" name="comment" rows="4" cols="50"> comment here</textarea>
+        <br>
+        </br>
+        <input type="submit" value="Submit" id="submit">
+      <form>
+     
   </body>
 </html>
